@@ -1,0 +1,10 @@
+---
+layout: post
+title: "moche"
+author: myabc
+categories: me
+tags:   [metablogging]
+---
+
+
+Yes, this site is rather ugly at the moment. That should change soon.
