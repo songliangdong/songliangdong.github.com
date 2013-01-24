@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Zespia</title>
+  <title>Page 4 | Zespia</title>
   <meta name="author" content="SkyArrow">
   
   
@@ -59,33 +59,44 @@
     <header>
       
         <div class="icon"></div>
-        <time datetime="2012-12-07T10:36:03.000Z"><a href="/blog/2012/12/07/hexo-theme-phase/">2012/12/7</a></time>
+        <time datetime="2012-01-14T07:52:00.000Z"><a href="/blog/2012/01/14/hello-octopress/">2012/1/14</a></time>
       
       
   
-    <h1 class="title"><a href="/blog/2012/12/07/hexo-theme-phase/">Phase — 史上最漂亮也最吃資源的主題</a></h1>
+    <h1 class="title"><a href="/blog/2012/01/14/hello-octopress/">Hello Octopress!</a></h1>
   
 
     </header>
     <div class="entry">
       
-        <p><img src="http://i.minus.com/icsKsGRjMpstw.png" alt="">
+        <p><img src="http://i.minus.com/i4CFI4qZAFEct.png" alt="">
 
 </p>
-<p>在轉到 Hexo 之前，我一直都在使用這個<a href="http://zespia.tw/blog/2012/05/02/new-theme-phase/">私用主題 Phase</a>，曾經承諾過我用膩了就公開發佈，於是今天就有這篇文章了。
+<p><a href="http://www.acsite.net/tw/">ACSite</a> 的空間即將在 2012/1/31 到期，而我又懶得續約，這時看到愈來愈多部落客都從 <a href="http://wordpress.org/">WordPress</a> 轉移到 <a href="http://octopress.org/">Octopress</a>，便開始試用 <a href="http://octopress.org/">Octopress</a>。
 
 </p>
-<p>這個主題是以 <a href="http://zespia.tw/Octopress-Theme-Slash/index_tw.html">Slash</a> 為基礎開發的，所以大部分的特性都繼承下來了，除了 Responsive Design 和 Twitter Live Stream 以外。
+<p><a href="http://octopress.org/">Octopress</a> 與 <a href="http://wordpress.org/">WordPress</a> 同樣身為部落格系統，卻有相當大的不同：
 
 </p>
 <ul>
-<li>Phase Beam 動態背景</li>
-<li>自動讀取圖片的<code>alt</code>屬性，並在圖片下方顯示註解。</li>
-<li>內建 <a href="http://fancyapps.com/fancybox/">Fancybox</a>，讓您輕鬆展示您的作品。</li>
-<li>自動將 HTML5 video、iframe、object 等嵌入式影片縮放至頁面寬度。</li>
-<li><a href="http://zespia.tw/hexo-theme-phase">預覽...</a></li>
+<li><strong><a href="http://wordpress.org/">WordPress</a>：</strong><ul>
+<li>PHP</li>
+<li>動態網頁</li>
+<li>外掛多樣</li>
+<li>速度慢</li>
+<li>使用簡單</li>
 </ul>
-<p>Phase Beam 動態背景的效果非常絢麗，但是也非常吃資源，電腦或瀏覽器效能不佳的使用者開啟時可能會當機，至於 IE8，<del>你何時產生了我曾經積極支援過它的錯覺？</del>
+</li>
+<li><strong><a href="http://octopress.org/">Octopress</a>：</strong><ul>
+<li>Ruby</li>
+<li>靜態網頁</li>
+<li>剛起步，外掛還很少</li>
+<li>速度快</li>
+<li>geek 才會用</li>
+</ul>
+</li>
+</ul>
+<p>以下將簡單介紹 <a href="http://octopress.org/">Octopress</a> 的安裝與使用。
 
 </p>
 
@@ -95,7 +106,7 @@
       
         
           <div class="alignleft">
-            <a href="/blog/2012/12/07/hexo-theme-phase/#more" class="more-link">閱讀全文</a>
+            <a href="/blog/2012/01/14/hello-octopress/#more" class="more-link">閱讀全文</a>
           </div>
         
         
@@ -113,28 +124,70 @@
     <header>
       
         <div class="icon"></div>
-        <time datetime="2012-12-05T16:14:46.000Z"><a href="/blog/2012/12/06/nodejs-stream-copy-files/">2012/12/6</a></time>
+        <time datetime="2011-09-17T00:00:00.000Z"><a href="/blog/2011/09/17/google-scripts-2/">2011/9/17</a></time>
       
       
   
-    <h1 class="title"><a href="/blog/2012/12/06/nodejs-stream-copy-files/">使用 Stream 來拷貝檔案</a></h1>
+    <h1 class="title"><a href="/blog/2011/09/17/google-scripts-2/">Google+ Motionless &amp; Filter</a></h1>
   
 
     </header>
     <div class="entry">
       
-        <p><img src="http://i.minus.com/iFFlrSnC6IrC8.jpg" alt="K 子 - ぬれ早苗 (id=16398495)">
+        <p><img src="http://i.minus.com/ieJceSDuuo3RS.png" alt="サイノウサンプラー | ryosios（id=21795820）">
+
 
 </p>
-<blockquote>
-<p><strong>Stream</strong> [strim] n. [C] 小河、溪流
+<p>最近課業繁重，無法抽出時間撰寫網誌，於是 <del>寫這篇文章來騙人氣</del> 再介紹一次之前寫的 2 個 Google+ 腳本。上圖與本文毫無關係，純粹是在 Pixiv 上隨便抓一張圖片而已。
 
 </p>
-</blockquote>
-<p>因為 Stream 有這樣的意思，所以找了一張有溪流的圖片當做頁首圖片，<del>要在 Pixiv 上找一張非 R-18 的濕身圖片真難</del>。
+<h2>Google+ Motionless</h2>
+<p>看圖、影片或閱讀文章時，因為訊息串的快速更新，常會使畫面不斷上下抽動，不只妨礙視覺，有時還會誤按連結，因此當做練功寫了這個腳本，並於 1.0.4 版新增「自動載入下頁」功能。
 
 </p>
-<p>雖然 <a href="http://zespia.tw/hexo">Hexo</a> 本來就很快了，不過在 <a href="https://github.com/tommy351/hexo/commit/1bfc6324285d7cadeb30f2c4bf4e8ea5fc451d5e">0.1.8</a> 使用 <a href="http://nodejs.org/api/stream.html">Stream</a> 代替原本的檔案複製方法，使靜態檔案的生成速度更加快速。
+<p><a href="http://userscripts.org/scripts/show/111484">下載（Ver. 1.0.4）</a>
+
+</p>
+<h2>Google+ Fxxking Filter</h2>
+<p>「樹大必有枯枝，人多必有白痴」，有時在訊息串上會看到令人很不爽的發言，透過這腳本可以將不想看到的訊息過濾，還給使用者一片乾淨的訊息串。
+
+</p>
+<p><a href="http://userscripts.org/scripts/show/111206">下載（Ver. 1.0.1）</a></p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2011-08-04T10:01:00.000Z"><a href="/blog/2011/08/04/html5-storage/">2011/8/4</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/blog/2011/08/04/html5-storage/">HTML5 Storage 的使用彙整</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p><img src="http://i.minus.com/ich1TucSOe08P.jpg" alt="找不到相關的圖，各位就把小惡魔胸前的脂肪塊當做 Storage 吧！（id=21000433）">
+
+</p>
+<p>當初寫 Google+ Hover Zoom 這腳本時，壓根沒想過可以用 Greasemonkey 內建的參數來儲存資料，於是就選用 HTML5 的 Storage 功能來儲存資料，然而此功能僅能儲存字串（String），讓我花了好些時間上網找資料才能掌握此功能的使用方式。
 
 </p>
 
@@ -144,7 +197,7 @@
       
         
           <div class="alignleft">
-            <a href="/blog/2012/12/06/nodejs-stream-copy-files/#more" class="more-link">閱讀全文</a>
+            <a href="/blog/2011/08/04/html5-storage/#more" class="more-link">閱讀全文</a>
           </div>
         
         
@@ -162,26 +215,23 @@
     <header>
       
         <div class="icon"></div>
-        <time datetime="2012-11-18T16:36:38.000Z"><a href="/blog/2012/11/19/steins-gate/">2012/11/19</a></time>
+        <time datetime="2011-07-13T00:00:00.000Z"><a href="/blog/2011/07/13/firefox-google-plus-plugins/">2011/7/13</a></time>
       
       
   
-    <h1 class="title"><a href="/blog/2012/11/19/steins-gate/">命運石之門（Steins;Gate）中文版</a></h1>
+    <h1 class="title"><a href="/blog/2011/07/13/firefox-google-plus-plugins/">Google+ Hide Comments &amp; Hover Zoom</a></h1>
   
 
     </header>
     <div class="entry">
       
-        <p><img src="http://i.minus.com/iFsuGusXg32tv.jpg" alt="">
+        <p><img src="http://i.minus.com/ihQ0s0iWJDgNU.jpeg" alt="">
 
 </p>
-<p>各位可還記得，5pb 的社長在去年的 FF18 宣布 Steins;Gate 即將推出中文化的<a href="http://gnn.gamer.com.tw/9/56049.html">消息</a>，然而說好的 2012 年春季到了，令人望眼欲穿的中文版依然沒有任何消息。
+<p>大約在兩週前，Google 發表了新的社群服務「Google+」，雖然很多人都說 Facebook 和 Google+ 有很大的不同，不過對我而言 Google+ 就是個宅宅版的 Facebook 罷了，我懶得去分析什麼社群網站的情勢了，今天的重點也不在這裡。
 
 </p>
-<p>直到前幾個月，官方突然發佈了一個簡陋的<a href="http://www.gamecity.com.tw/steinsgate/">官方網站</a>，這才確定了中文版的發售日期──11 月 15 日，而且 PS3 版也將有中文版。
-
-</p>
-<p>也許是因為 PS3 版的原因造成了中文版的延誤，然而 Xbox 360 的不幸可不僅止於此，發售前夕，Xbox 360 版因為日本生產進度延誤，導致遊戲發售日延後至 11 月底（<a href="http://xboxlife.tw/show.php?fid=2&amp;tid=3417">來源</a>）。
+<p>雖然 Google+ 已經發表了一段時間，針對 Firefox 所做的擴充元件還是很少，幾乎沒有，反倒是 Chrome 的擴充套件數量不斷提昇，因此上週六（7/9）我吃飽太閒試著用 jQuery 寫了生平第一個瀏覽器腳本「Google+ Hide Comments」，一個行數不到 40 行的簡單腳本，本來想試著研究 Firefox 擴充套件，但最後太複雜還要先裝一堆擴充套件於是作罷。
 
 </p>
 
@@ -191,7 +241,7 @@
       
         
           <div class="alignleft">
-            <a href="/blog/2012/11/19/steins-gate/#more" class="more-link">閱讀全文</a>
+            <a href="/blog/2011/07/13/firefox-google-plus-plugins/#more" class="more-link">閱讀全文</a>
           </div>
         
         
@@ -209,20 +259,20 @@
     <header>
       
         <div class="icon"></div>
-        <time datetime="2012-11-12T05:48:14.000Z"><a href="/blog/2012/11/12/xperia-s/">2012/11/12</a></time>
+        <time datetime="2011-07-01T07:44:00.000Z"><a href="/blog/2011/07/01/ps3-meruru/">2011/7/1</a></time>
       
       
   
-    <h1 class="title"><a href="/blog/2012/11/12/xperia-s/">新手機 Xperia S</a></h1>
+    <h1 class="title"><a href="/blog/2011/07/01/ps3-meruru/">鍊金術士梅露露 ～亞蘭德的鍊金術士 3～</a></h1>
   
 
     </header>
     <div class="entry">
       
-        <p><img src="http://i.minus.com/iZPlBKqBYIzo4.jpg" alt="因為手邊沒相機，所以拿網路上的照片代替">
+        <p><img src="http://i.minus.com/ib1v5x6fsVI7ue.jpeg" alt="相機又被老媽搶走了，反正我攝影技術也不好，乾脆直接貼官網的桌布吧（逃）">
 
 </p>
-<p>經過我三年的摧殘，上一支手機 <a href="http://www.sogi.com.tw/product/productInfo.aspx?pno=6621">Sony Ericsson S312</a> 終於壽終正寢，因為 <a href="http://en.wikipedia.org/wiki/FastPort">FastPort</a> 接觸不良而無法充電，這好像是 SE 社的手機很常發生的問題？
+<p>當初聽到這款遊戲的發售消息時，還有點猶豫自己到底該不該買，因為同一系列的托托莉我玩了將近一個月，還是摸不熟系統，最後只得來了「BAD END」的結局，但當我回神之時，手中的滑鼠已經不自覺地按下了「訂購」連結，於是乎就有你眼前的這篇文章了。
 
 </p>
 
@@ -232,54 +282,7 @@
       
         
           <div class="alignleft">
-            <a href="/blog/2012/11/12/xperia-s/#more" class="more-link">閱讀全文</a>
-          </div>
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2012-10-28T16:25:37.000Z"><a href="/blog/2012/10/29/hexo-update-0.1/">2012/10/29</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/blog/2012/10/29/hexo-update-0.1/">Hexo 更新至 0.1</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p><img src="http://i.minus.com/ibn0sBufi4xK4S.jpg" alt="らぐほのえりか - モリサマー (id=31068919)">
-
-</p>
-<p><strong>森夏的ㄋㄟㄋㄟ讚！</strong><del>有沒有最近作者都用圖片來騙人的八卦</del>
-
-</p>
-<p>Hexo 發佈大約兩週之後，你可能會懷疑 Hexo 怎麼都沒有任何新消息，說好要補完的文件也毫無動靜。
-
-</p>
-<p>其實是因為這兩週我都在製作 0.1 版的更新，主要是為了修改之前的 bug，並增加擴充性。
-
-</p>
-
-      
-    </div>
-    <footer>
-      
-        
-          <div class="alignleft">
-            <a href="/blog/2012/10/29/hexo-update-0.1/#more" class="more-link">閱讀全文</a>
+            <a href="/blog/2011/07/01/ps3-meruru/#more" class="more-link">閱讀全文</a>
           </div>
         
         
@@ -294,8 +297,10 @@
 
 <nav id="pagination">
   
+    <a href="/page/3/" class="alignleft prev">Prev</a>
   
-    <a href="/page/2/" class="alignright next">Next</a>
+  
+    <a href="/page/5/" class="alignright next">Next</a>
   
   <div class="clearfix"></div>
 </nav></div></div>
