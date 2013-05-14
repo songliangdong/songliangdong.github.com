@@ -149,7 +149,9 @@ ul.posts {
 /*****************************************************************************/
 
 #post {
-
+  box-shadow: 2px 2px 8px #aaa;
+  -webkit-box-shadow: 2px 2px 8px #aaa;
+  -moz-box-shadow: 2px 2px 8px #aaa;  
 }
 
   /* standard */
