@@ -83,7 +83,6 @@ pageTracker._trackPageview();
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"songliangdong"};
 	(function() {
-		var post = document.getElementById("post");
 
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
@@ -91,11 +90,16 @@ var duoshuoQuery = {short_name:"songliangdong"};
 		ds.charset = 'UTF-8';
 		(document.getElementsByTagName('head')[0] 
 		|| document.getElementsByTagName('body')[0]).appendChild(ds);
-		
-		var ds_thread = document.getElementById("ds-thread");
-		post.appendChild(ds_thread);
 
 	})();
+	
+	
+	$(function(){
+	
+		$("#ds-thread").appendTo($("#post"));
+	
+	
+	});
 	</script>
 <!-- Duoshuo Comment END -->
 
