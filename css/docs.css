@@ -8,7 +8,7 @@
   position: relative;
   padding: 40px 0;
   color: #fff;
-  min-height: 6em;
+  min-height: 5em;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
   background: #020031; /* Old browsers */
@@ -22,6 +22,7 @@
   -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
      -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
           box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  margin-top: 41px;
 }
 .jumbotron h1 {
   font-size: 80px;
