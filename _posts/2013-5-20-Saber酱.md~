@@ -4,8 +4,7 @@ title:  saber酱
 category : acg
 ---
 
-{{page.title}}
-===========================
+<h2>~/{{category}}/{{ page.title }}</h2>
 
 <img src = '/images/2013-5-20-0.jpg' >
 <br/>
