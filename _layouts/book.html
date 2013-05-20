@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+  
+   
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"  />
+   <link rel="stylesheet" href="/css/bootstrap-responsive.min.css" type="text/css"  />
+   <link rel="stylesheet" href="/css/docs.css" type="text/css"  />
+
+</head>
+<body>
+
+<div id = "header" class =" navbar navbar-inverse navbar-fixed-top">
+<div class="navbar-inner">
+		<div class="container">
+			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">宋良栋的书房</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="">
+                <a href="/">主页</a>
+              </li>
+              <li class="">
+                <a href="/blog.html">博客</a>
+              </li>
+              <li class="active">
+                <a href="/book.html">书籍</a>
+              </li>
+              <li class="">
+                <a href="/code.html">代码</a>
+              </li>
+              <li class="">
+                <a href="/acg.html">ACG</a>
+              </li>
+
+            </ul>
+          </div>
+			<ul class="nav secondary-nav" style="float:right;">
+				<script language="javascript">
+					function g(formname)	{
+					if (formname.s[1].checked) {
+						formname.ct.value = "2097152";
+					}
+					else {
+						formname.ct.value = "0";
+					}
+					return true;
+					}
+				</script>
+				<form class="navbar-search pull-left" name="f1" onsubmit="return g(this)" action="http://www.baidu.com/baidu">
+					<input name="word" type="text" class="search-query" placeholder="百度站内搜索">
+					<a href="javascript:void(0)" onclick="document.f1[0].submit();"><i class="icon-search icon-white"></i></a>
+					<div class="hide">
+						<input name="tn" type="hidden" value="bds">
+						<input name="cl" type="hidden" value="3">
+						<input name="ct" type="hidden" value="2097152">
+						<input name="ie" type="hidden" value="utf-8">
+						<input name="si" type="hidden" value="www.songliangdong.com">
+						<input name="s" type="radio">
+						<input name="s" type="radio" checked="">
+					</div>
+				</form>
+
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="jumbotron masthead">
+  <div class="container">
+    <h2 class = "pull-left">你好，世界</h2>
+  </div>
+</div>
+<div class="site">
+ 
+  {{ content }}
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        宋 良栋<br />
+        <img class = "face" src="/images/face.jpg" alt="宋 良栋" /><br />
+       mxturing@yeah.net<br />
+      
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+        <a href="http://weibo.com/turingyourlife">我的新浪微博</a><br />
+        <a href="https://github.com/EdwardTuring">我的<span color = 'lightblue'>Github</span></a><br />
+        <a href="http://space.bilibili.tv/811315">我的bilibili.tv</a><br />
+       
+      </p>
+    </div>
+  </div>
+</div>
+
+<script src="/js/jquery-1.8.1.min.js" type="text/javascript"></script>
+<script src="/js/bootstrap.min.js" type="text/javascript"></script>
+
+
+<!-- Duoshuo Comment BEGIN -->	
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"songliangdong"};
+	(function() {
+
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+
+	})();
+	
+
+	</script>
+<!-- Duoshuo Comment END -->
+
+</body>
+</html>
