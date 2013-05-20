@@ -18,71 +18,7 @@
 
 </head>
 <body>
-
-<div id = "header" class =" navbar navbar-inverse navbar-fixed-top">
-<div class="navbar-inner">
-		<div class="container">
-			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="/">宋良栋的书房</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="">
-                <a href="/">主页</a>
-              </li>
-              <li class="">
-                <a href="/blog.html">博客</a>
-              </li>
-              <li class="">
-                <a href="/book.html">书籍</a>
-              </li>
-              <li class="active">
-                <a href="/code.html">代码</a>
-              </li>
-              <li class="">
-                <a href="/acg.html">ACG</a>
-              </li>
-
-            </ul>
-          </div>
-			<ul class="nav secondary-nav" style="float:right;">
-				<script language="javascript">
-					function g(formname)	{
-					if (formname.s[1].checked) {
-						formname.ct.value = "2097152";
-					}
-					else {
-						formname.ct.value = "0";
-					}
-					return true;
-					}
-				</script>
-				<form class="navbar-search pull-left" name="f1" onsubmit="return g(this)" action="http://www.baidu.com/baidu">
-					<input name="word" type="text" class="search-query" placeholder="百度站内搜索">
-					<a href="javascript:void(0)" onclick="document.f1[0].submit();"><i class="icon-search icon-white"></i></a>
-					<div class="hide">
-						<input name="tn" type="hidden" value="bds">
-						<input name="cl" type="hidden" value="3">
-						<input name="ct" type="hidden" value="2097152">
-						<input name="ie" type="hidden" value="utf-8">
-						<input name="si" type="hidden" value="www.songliangdong.com">
-						<input name="s" type="radio">
-						<input name="s" type="radio" checked="">
-					</div>
-				</form>
-
-			</ul>
-		</div>
-	</div>
-</div>
-<div class="jumbotron masthead">
-  <div class="container">
-    <h2 class = "pull-left">你好，世界</h2>
-  </div>
-</div>
+{%include header%}
 <div class="site">
  
   {{ content }}
