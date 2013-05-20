@@ -6,11 +6,7 @@ title: 宋良栋的书房
 <div id="home">
   <h1>./书籍</h1>
   <ul class="posts">
-    {% for post in site.posts  %}
-
-    {%if site.category == "book"%}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-	{%endif%}
-   {%endfor%}
+    {%assign category = "book"%}
+    {% include posts_category %}
   </ul>
 </div>
