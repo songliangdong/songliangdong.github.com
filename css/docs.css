@@ -91,7 +91,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(/img/saber.jpg);
+  background: url(/img/saber.jpg) no-repeat;
   opacity: .4;
 }
 @media
