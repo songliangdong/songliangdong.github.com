@@ -92,6 +92,7 @@
   bottom: 0;
   left: 0;
   background: url(/img/saber.jpg) no-repeat center center;
+  background-color: #937c5c;
   opacity: .4;
 }
 @media
