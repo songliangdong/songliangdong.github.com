@@ -1,0 +1,19 @@
+<div id="home" class = "row">
+	<div class = "span9 box article">
+		<div class = "content">
+		  <h1 >~/{{ category }}</h1>
+		  <ul class="posts thread-list">
+
+   			 {% include posts_category %}
+		  </ul>
+		</div>
+	</div>
+	<div class="span3 sidebar">
+		<div class = "box">
+			<!--Weibo  begin-->
+			<iframe width="100%" height="100" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=200&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=0&isWeibo=0&isFans=0&uid=1818722923&verifier=a3b2e71b&dpc=1"></iframe>
+			<!--Weibo  end-->
+		</div>
+	</div>
+		
+</div>
