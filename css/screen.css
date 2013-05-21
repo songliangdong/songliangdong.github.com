@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background: url("/img/tile-light.png");
+  background: url("/img/tile-light.png") repeat-x 0 41px;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
