@@ -4,6 +4,7 @@ layout: default
 <div id="post">
 {{ content }}
 <br/>
+<div id = "post_pdf"><p>无法打开pdf文件</p>  <a href="/pdf/{{ page.title }}.pdf">点击此处下载</a></p></div>
 {%include posts_pdf%}
 <!--Webo share begin-->
 <p>分享到:</p><wb:share-button count="n" size="big" appkey="1947928767" ></wb:share-button>

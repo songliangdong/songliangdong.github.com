@@ -3,6 +3,6 @@
     window.onload = function (){
       //Add PDFObject code here
 
-	var myPDF = new PDFObject({ url: "{{post.title}}" }).embed("post");
+	var myPDF = new PDFObject({ url: "/pdf/{{ page.title }}.pdf" }).embed("post_pdf");
     };
   </script>
