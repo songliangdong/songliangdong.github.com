@@ -1,0 +1,8 @@
+<script src = "/js/pdfobject.js"></script>
+<script type="text/javascript">
+    window.onload = function (){
+      //Add PDFObject code here
+
+	var myPDF = new PDFObject({ url: "{{post.title}}" }).embed("post");
+    };
+  </script>
