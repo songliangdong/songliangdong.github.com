@@ -24,7 +24,9 @@
               <li class="">
                 <a href="/acg.html">ACG</a>
               </li>
-
+	      <li class="">
+                <a href="/doc.html">文档</a>
+              </li>
             </ul>
           </div>
 			<ul class="nav secondary-nav" style="float:right;">
